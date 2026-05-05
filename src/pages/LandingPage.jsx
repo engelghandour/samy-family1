@@ -26,7 +26,7 @@ export default function LandingPage() {
                 <i className="fas fa-stethoscope"></i>
               </div>
               <div className="logo-text">
-                <h1>Samy Family Medical</h1>
+                <h2>Samy Family Medical</h2>
                 <span>Practice</span>
               </div>
             </Link>
