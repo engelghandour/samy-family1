@@ -48,7 +48,7 @@ export default function LandingPage() {
           <div className="hero-text">
             <h1 className="hero-title">Samy Family Practice</h1>
             <p className="hero-desc">
-              Providing quality healthcare to the Cootehill community and surrounding areas.
+              Providing health services to Cavan area and surrounding areas.
               Compassionate care in a modern, welcoming environment.
             </p>
             <div className="hero-buttons">
@@ -67,7 +67,7 @@ export default function LandingPage() {
           <div className="hero-info-card">
             <div className="info-card-body">
               <h3><i className="fas fa-phone-alt"></i> Emergency</h3>
-              <a href="tel:+353000000000" className="info-phone">(000) 000-0000</a>
+              <a href="tel:+353000000000" className="info-phone">(1800) 777-911</a>
             </div>
             <div className="info-card-body">
               <h3><i className="far fa-clock"></i> Opening Hours</h3>
@@ -78,7 +78,7 @@ export default function LandingPage() {
             </div>
             <div className="info-card-body">
               <h3><i className="fas fa-map-marker-alt"></i> Address</h3>
-              <p>Collins Medical Practice<br/>Co. Cavan, Ireland</p>
+              <p>Samy Family Practice<br/>2nd floor, Drumalee Primary Care Center<br/>Co. Cavan, Ireland</p>
             </div>
             <Link to="/booking" className="info-card-cta">
               <i className="fas fa-arrow-right"></i> Book an Appointment
@@ -158,8 +158,8 @@ export default function LandingPage() {
             <div className="about-text">
               <h2>Welcome to Samy Family Practice</h2>
               <p>
-                At Collins Medical Practice, we are dedicated to providing high-quality,
-                compassionate healthcare to the Cootehill community and surrounding areas.
+                At Samy Family Practice, we are dedicated to providing high-quality,
+                compassionate healthcare to the Cavan area and surrounding areas.
                 Our experienced team of healthcare professionals is committed to your wellbeing.
               </p>
               <p>
@@ -202,7 +202,7 @@ export default function LandingPage() {
                 <i className="fas fa-phone-alt"></i>
               </div>
               <h3>Phone</h3>
-              <a href="tel:+353000000000" className="contact-link">(000) 000-0000</a>
+              <a href="tel:+353000000000" className="contact-link">(049) 489-1721</a>
               <p className="contact-note">Call us during office hours</p>
             </div>
             <div className="contact-card">
@@ -210,7 +210,7 @@ export default function LandingPage() {
                 <i className="fas fa-envelope"></i>
               </div>
               <h3>Email</h3>
-              <a href="mailto:info@collinsmedical.ie" className="contact-link">info@collinsmedical.ie</a>
+              <a href="mailto:info@samyfamily.com" className="contact-link">info@samyfamily.com</a>
               <p className="contact-note">We reply within 24 hours</p>
             </div>
             <div className="contact-card">
@@ -218,7 +218,7 @@ export default function LandingPage() {
                 <i className="fas fa-map-marker-alt"></i>
               </div>
               <h3>Address</h3>
-              <p className="contact-address">Collins Medical Practice<br/>Co. Cavan, Ireland</p>
+              <p className="contact-address">Samy Family Practice<br/>2nd floor, Drumalee Primary Care Center<br/>Co. Cavan, Ireland</p>
             </div>
             <div className="contact-card">
               <div className="contact-icon">
@@ -243,11 +243,11 @@ export default function LandingPage() {
               <div className="footer-logo">
                 <i className="fas fa-stethoscope"></i>
                 <div>
-                  <h3>Samy Medical</h3>
+                  <h3>Samy Family Practice</h3>
                   <span>Practice</span>
                 </div>
               </div>
-              <p>Providing quality healthcare to the Cootehill community and surrounding areas since 2015.</p>
+              <p>Providing quality healthcare to the Cavan area and surrounding areas since 2015.</p>
             </div>
             <div className="footer-col">
               <h4>Quick Links</h4>
@@ -262,9 +262,9 @@ export default function LandingPage() {
             <div className="footer-col">
               <h4>Contact Info</h4>
               <ul className="footer-contact">
-                <li><i className="fas fa-phone-alt"></i> (000) 000-0000</li>
-                <li><i className="fas fa-envelope"></i> info@collinsmedical.ie</li>
-                <li><i className="fas fa-map-marker-alt"></i> Co. Cavan, Ireland</li>
+                <li><i className="fas fa-phone-alt"></i> (049) 489-1721</li>
+                <li><i className="fas fa-envelope"></i> info@samyfamily.com</li>
+                <li><i className="fas fa-map-marker-alt"></i> 2nd floor, Drumalee Primary Care Center, Co. Cavan, Ireland</li>
               </ul>
             </div>
             <div className="footer-col">
@@ -277,7 +277,7 @@ export default function LandingPage() {
             </div>
           </div>
           <div className="footer-bottom">
-            <p>&copy; {new Date().getFullYear()} Samy Medical Practice. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Samy Family Practice. All rights reserved.</p>
           </div>
         </div>
       </footer>
